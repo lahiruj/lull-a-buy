@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_content { background: #fff;
+                -moz-border-radius: 10px 10px 0px 0px;
+	            border-radius: 10px 10px 0px 0px;
+				padding: 0px;
+				margin: 10px 0px 0px 0px;
+				padding: 5px;
+}
+#panel { -moz-border-radius: 10px 10px 10px 10px;
+	     border-radius: 10px 10px 10px 10px;
+		 border: thin solid #ccc;
+		 padding: 10px;
+}
+
+#reg_form { clear: left;
+            border-right: thin solid #ccc;
+            width: 615px; 
+}
+
+td#submit { float: right;
+}
+
+#heading_1,#heading_2,#heading_3 { font-size: 18px;
+                                   color: #09F;
+			                       margin-left: 10px;
+			                       margin-bottom: 10px; 
+}
+
+#log_in { float: right;
+          width: 300px; 
+}
+/* End of CSS Document */
+

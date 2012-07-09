@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_content { background: #fff;
+                -moz-border-radius: 10px 10px 0px 0px;
+	            border-radius: 10px 10px 0px 0px;
+				padding: 0px;
+				margin: 10px 0px 0px 0px;
+				padding: 5px;
+}
+#panel { -moz-border-radius: 10px 10px 10px 10px;
+	     border-radius: 10px 10px 10px 10px;
+		 border: thin solid #ccc;
+		 padding: 10px;
+}
+
+#welcome_msg { font-size: 24px;
+}
+
+a { color: #C30;
+    text-decoration: blink;
+}
+/* End of CSS Document */
+

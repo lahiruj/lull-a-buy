@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { font-family: Verdana, Geneva, Arial, sans-serif;
+       font-size: small; 
+       background: none repeat scroll 0 0 #e2f6f4;/*8CD6F1;*/
+	   margin: 0px;
+}
+
+#allcontent { width: 950px;
+              margin-left: auto;
+              margin-right: auto;
+}
+a { color: #000;
+    text-decoration: none;
+}
+
+/* Header Region */
+
+#top_header { background-color: #fff;/*#c0bcdd*/
+	          -moz-border-radius: 0px 0px 10px 10px;
+	          border-radius: 0px 0px 10px 10px;
+	          padding: 0px;
+}
+
+#title { background: url(../images/lull-a-buy_logo.png) no-repeat scroll 0 0 #fff;
+         width: 950px;
+         height: 150px;
+		 -moz-border-radius: 0px;
+	     border-radius: 0px;
+}
+
+#welcome { margin-top: 5px;
+           margin-right: 5px;
+           width: 130px;
+		   height: 25px;
+		   float: right;
+}
+
+#header_menu { background-color: #d25c33;
+               font-size: 60%;
+               width: 258px;
+		       height: 13px;
+		       float: right;
+			   clear: right;
+			   margin-top: 5px;
+			   padding-top: 2px;		   
+}
+
+#header_menu a { color: #fff;
+                 text-decoration: none;
+}
+
+#header_menu #home { margin-left: 20px;
+}
+
+.header_menu{  float:left;
+               margin-left: 2px;
+			   margin-top: -5px;
+}
+
+#shopping_cart { background: url(../images/cart_new.png) no-repeat scroll 0 0;
+                 width: 258px;
+		         height: 32px;
+				 float: right;
+				 clear: right;
+				 font-size: 80%;
+				 color: #FFF;
+}
+
+#cart_img { background: url(../images/cart.png) no-repeat scroll 0 0;
+            margin-left: 19px;
+            width: 32px;
+		    height: 32px;
+}
+
+#cart_item_quantity{ margin-left: 53px;
+                     margin-top: -26px;
+}
+
+#cart_value{ margin-left: 100px;
+             margin-top: -21px;
+}
+
+#checkout { background: url(../images/check_out.png) no-repeat scroll 0 0;
+            width: 82px;
+		    height: 22px;
+            position: relative;
+            top: -70%;
+			left: 65%;
+			/*margin-left: 168px;
+            margin-top: -22px;*/
+}
+
+#arrow { background: url(../images/arrow.png) no-repeat scroll 0 0;
+         float: right;
+         height: 32px;
+         width: 11px; 
+}
+
+#search { background: url(../images/search.png) no-repeat scroll 0 0;
+          width: 265px;
+		  height: 35px;
+		  float: right;
+		  clear: right;
+		  margin-top: 26px;
+		  margin-right: 5px;
+}
+
+#search_area { background-color: #ccc;
+               width: 150px;
+               height:20px;
+			   margin-left: 72px;
+			   margin-top: 7px;
+}
+
+#magnify { background: url(../images/magnify.png) no-repeat scroll 0 0;
+           width: 22px;
+		   height: 19px;
+		   margin-left: 229px;
+		   margin-top: -20px;
+}
+/* End of Header Region */
+
+/* Main Region */
+
+#main_content { -moz-border-radius: 10px 10px 0px 0px;
+	            border-radius: 10px 10px 0px 0px;
+				padding: 0px;
+				margin: 10px 0px 0px 0px;
+				padding: 5px;
+				clear: both;
+}
+
+#home #main_content { background: url(../images/baby_bg.png) no-repeat scroll 0 0 #fff;
+}
+
+#breadcrumb { font-size: 9px;
+              margin-left: 5px;
+			  margin-bottom: 5px;
+}
+
+#slider {  -moz-border-radius: 10px 10px 10px 10px;
+	       border-radius: 10px 10px 10px 10px;
+           width: 500px !important;
+		   height: 380px !important;
+           float: right;
+		   clear: both;
+		   margin-top: 50px;
+		   margin-right: 20px;
+		   margin-bottom: 43px;
+		   /*z-index: 96;*/
+}
+
+/*Slider Styles*/
+
+#prevBtn, #nextBtn, #slider1next, #slider1prev { display: block;
+                                                 height: 30px; 
+												 width: 30px; 
+												 left: 427px; 
+												 top: 222px;
+												 position: relative;  
+												 z-index: 96;
+}
+
+#prevBtn a, #nextBtn a, #slider1next a, #slider1prev a { background: url("../images/btn_prev.png") no-repeat scroll 0 0 transparent;
+                                                         display: block;
+														 height: 30px;
+														 width: 30px;
+														 position: relative;
+}
+
+#nextBtn a, #slider1next a { background: url("../images/btn_next.png") no-repeat scroll 0 0 transparent;
+}
+
+#nextBtn, #slider1next { left: 884px;
+                         top: 192px;
+}
+
+#slider ul { margin-top: 0px !important;
+             margin-bottom: 0px !important;
+             padding-left: 0px !important;
+			 list-style: none;			 
+}
+/*End of Slider Styles*/
+
+#content { width: 788px;
+           height: 150px;
+           clear: both;
+		   padding-left: 72px;
+}
+
+.item {  border: 2px solid #ccc;
+		 -moz-border-radius: 10px 10px 10px 10px;
+	     border-radius: 10px 10px 10px 10px;
+		 width : 250px;
+         height: 150px;
+		 float: left;
+}
+
+.topsel_3 { line-height: 25px;
+}
+
+.topsel_3 .f_list li a { color: #848279;
+                         font-size: 12px;
+}
+
+.topsel_3 .f_list { margin-top: 5px;
+}
+
+.topsel_3 li { line-height: 19px;
+}
+
+.topsel_3 .f_header { color: #5c3a35;
+                      font-size: 14px;
+}
+
+#item_1 { background-color: #fff;
+          margin-left: 0px;
+}
+
+#topsel_3_img_1 { background: url(../images/topsel_3_img_1.png);
+                  width: 90px;
+				  height: 110px;
+                  float: right;
+				  margin-top: 0px;
+}
+
+#item_2 { background-color: #fff;
+          margin-left: 13px;		  
+}
+
+#topsel_3_img_2 { background: url(../images/topsel_3_img_2.png);
+                  width: 90px;
+				  height: 110px;
+                  float: right;
+				  margin-top: 0px;
+}
+
+#item_3 { background-color: #fff;
+          margin-left: 13px;
+}
+
+#topsel_3_img_3 { background: url(../images/topsel_3_img_3.png);
+                  width: 90px;
+				  height: 110px;
+                  float: right;
+				  margin-top: 0px;
+}
+
+#brands { width : 830px;
+          height: 149px;
+		  background: url(../images/brands.png);
+	      -moz-border-radius: 10px 10px 10px 10px;
+	      border-radius: 10px 10px 10px 10px;
+		  border: 2px solid #CCC;
+		  margin-top: 10px;
+		  margin-left: 53px;
+}
+
+/* End of Main Region */
+
+/* Footer Region */
+
+#footer { background-color: #fff;
+          -moz-border-radius: 0px;
+	      border-radius: 0px;
+		  padding: 0px 5px 0px;
+		  clear: both;
+}
+
+#divider { width : 834px;
+           height: 44px;
+		   background: url(../images/divider.png) no-repeat scroll 0 0;
+		   margin-left: 51px;
+}
+
+#footer_menu { width : 830px;
+               height: 145px;
+		       background-color: #f0f0f0;
+			   border: solid 2px #ababab;
+			   margin-left: 48px;
+			   margin-bottom: 5px;
+			   -moz-border-radius: 10px 10px 10px 10px;
+	           border-radius: 10px 10px 10px 10px;
+			   padding-top: 5px;
+}
+
+.option_doc { width: 165px;
+              height: 140px;
+              border-left: 1px solid #cdcdcd;
+			  float: left;
+			  line-height: 24px;
+}
+
+.option_doc li { line-height: 19px;
+}
+
+#doc_1 { border: none;
+}
+
+.option_doc a{ color: #7a7a7a;
+               font-size: 11px;
+}
+
+.f_header { color: #7585c0;
+            font-weight: bolder;
+			margin-left: 15px;
+			margin-top: 5px;
+		    font-size: 13px;
+}
+
+.f_list { list-style: none;
+          padding-left: 15px;
+		  margin-top: 0px;
+		  font-family: Arial,Helvetica,sans-serif;
+          line-height: 21px;
+}
+
+#bottom_line { background: -moz-linear-gradient(center top , #0272A7, #013953) repeat scroll 0 0 transparent;
+               -moz-border-radius: 10px 10px 0px 0px;
+	           border-radius: 10px 10px 0px 0px;
+}
+
+#pay { width : 246px;
+       height: 32px;
+	   background: url(../images/pay.png) no-repeat scroll 0 0;
+	   float: left;
+	   margin-top: 5px;
+	   margin-left: 5px;
+}
+
+#copyright { font-size: 80%;
+             color: #fff;
+             margin-left: 335px;
+             margin-right: 280px;
+             padding: 15px 0px 10px 0px;
+}
+
+.social_media { width : 40px;
+                height: 40px;
+			    float: right;
+			    margin-top: 5px;
+				margin-right: 10px;
+}
+
+#facebook { background: url(../images/facebook.png) no-repeat scroll 0 0;
+}
+
+#twitter { background: url(../images/twitter.png) no-repeat scroll 0 0;
+}
+/* End of Footer Region */
+
+/* End of CSS Document */

@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+#c_u{color: #09F;
+     font-style:inherit;
+	 font-size:22px;
+	 padding-top:10px;
+	 padding-bottom:20px;}
+	 
+#call_1{color:#000;
+     font-style:inherit;
+	 font-size:16px;
+	 padding-top:20px;}
+	 
+#call_img{padding-top:20px;
+          padding-bottom:10px;}
+	 
+#mail_1{color:#000;
+     font-style:inherit;
+	 font-size:16px;
+	 padding-top:20px;}
+	 
+#mail_img{padding-top:20px;
+          padding-bottom:10px;}
+		  
+#wr_1{color:#000;
+     font-style:inherit;
+	 font-size:16px;
+	 padding-top:20px;}
+	 
+#wr_img{padding-top:20px;
+          padding-bottom:10px;}

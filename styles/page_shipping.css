@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+
+#main_content { background: #fff;
+                -moz-border-radius: 10px 10px 0px 0px;
+	            border-radius: 10px 10px 0px 0px;
+				padding: 0px;
+				margin: 10px 0px 0px 0px;
+				padding: 5px;
+}
+#panel { -moz-border-radius: 10px 10px 10px 10px;
+	     border-radius: 10px 10px 10px 10px;
+		 border: thin solid #ccc;
+		 padding: 10px;
+}
+
+#reg_form { clear: left;
+            border-right: thin solid #ccc;
+            width: 615px; 
+}
+
+td#submit { float: right;
+}
+
+td.sfi { background-color: #E8DEE3;
+    border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+    height: 50px;
+    margin-bottom: 3px;
+    padding-left: 20px;
+	padding-right: 20px;
+    padding-top: 6px;
+	}
+
+#heading_1,#heading_2,#heading_3 { font-size: 18px;
+                                   color: #09F;
+			                       margin-left: 10px;
+			                       margin-bottom: 10px;
+}
+
+#heading_3 { margin-top: 15px;
+}
+
+#log_in { float: right;
+          width: 250px; 
+}
+
+#pay { width : 246px;
+       height: 32px;
+	   background: url(../images/pay.png) no-repeat scroll 0 0;
+	   float: left;
+	   margin-top: 5px;
+	   margin-left: 5px;
+}
+
+#paypal { width : 112px;
+          height: 37px;
+	      background: url(../images/paypal.png) no-repeat scroll 0 0;
+	      float: left;
+	      margin-top: 5px;
+	      margin-left: 5px;
+}
+/* End of CSS Document */
+

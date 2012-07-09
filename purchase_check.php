@@ -1,0 +1,12 @@
+<?php
+include('db_connect.php');
+session_start();
+if(!isset($_SESSION['username']))
+{ 
+   header("Location:log_in.php"); 
+ }
+else
+{
+   header("Location:purchase.php");
+}
+?>
