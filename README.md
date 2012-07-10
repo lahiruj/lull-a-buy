@@ -10,5 +10,5 @@
 > Seems like *chrome has a one issue with css* (Checkout button in top dosen't seems to obey the top value that I used for relative positioning ). :/ But *Mozzila,IE7+(of course),Opera displays it fine*. *admin is the username knights is the password* for admin panel. 
   At first the delivery cost is not shown at the top viewing cart. After visit the shopping cart it is updated just fine :)
  
-> Its nothing much. You can use it for anything as u like. Hope this will be usefull for some one (or might not). Anyway, thank you.
+ Its nothing much. You can use it for anything as u like. Hope this will be usefull for some one (or might not). Anyway, thank you.
 -*Lahiru Jayaratne*
